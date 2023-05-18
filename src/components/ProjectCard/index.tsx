@@ -5,8 +5,12 @@ import type { ProjectType } from '../../../types/post'
 
 const ProjectCard = ({ project }: { project: ProjectType }) => {
   return (
+    // <Link href={`/projects/${project.slug}`}>
     <Link href={`/projects/${project.slug}`}>
-      <a tabIndex={0} className='p-8 rounded cursor-pointer w-fit h-fit bg-slate-100 hover:ring-2 ring-secondary focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-secondary'>
+
+      {/* <a tabIndex={0} className='p-8 rounded cursor-pointer w-fit h-fit bg-slate-100 hover:ring-2 ring-secondary focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-secondary'> */}
+      <a tabIndex={0} className='p-8 m-4 mx-auto transition-all rounded w-fit h-fit  bg-slate-100 hover:ring-2 ring-secondary hover:cursor-pointer focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-secondary '>
+
         <div className='flex flex-col mx-auto w-fit'>
           <div>
           </div>
@@ -23,3 +27,4 @@ const ProjectCard = ({ project }: { project: ProjectType }) => {
 }
 
 export default ProjectCard
+

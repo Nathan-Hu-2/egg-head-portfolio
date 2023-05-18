@@ -30,4 +30,4 @@ summary: "This portfolio is h"
 
 ## My Portfolio!!
 
-<!-- ![alt text](/assets/8008.svg "Title") -->
+![alt text](/assets/8008.svg "Title")

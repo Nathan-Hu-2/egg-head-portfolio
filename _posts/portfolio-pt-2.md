@@ -1,33 +1,33 @@
 ---
-title:  "My Most Recent Project"
+title: "8008 VSCode Theme"
 date: 2022/04/06
 tags: [portfolio]
 project: true
 images: [
     {
-      name: 'Blog page',
-      src: '/assets/portfolio-blog.png',
-      alt: 'The blog page of the application',
+      name: "Blog page",
+      src: "/assets/8008.svg",
+      alt: "The blog page of the application",
     },
+    # { name: "Home Page", src: "/assets/portfolio.png", alt: "The Home Page" },
+  ]
+details:
+  [
+    { name: "Tech Stack", items: ["Next.js", "ReachUI", "TailwindCSS"] },
     {
-      name: 'Home Page',
-      src: '/assets/portfolio.png',
-      alt: 'The Home Page',
-    }
-     ]
-details: [
-  {
-    name: "Tech Stack",
-    items: ["Next.js", "ReachUI", "TailwindCSS"]
-  },
-  {
-    name: "App Features",
-    items: ["File based blog", "About Me", "Project Showcase", "Application Theming"]
-  }
-]
-summary: "This portfolio is meant to showcase the skills I have learned over the years. This should go into much more detail about what this project is. This portfolio is meant to showcase the skills I have learned over the years. This should go into much more detail about what this project is. This portfolio is meant to showcase the skills I have learned over the years. This should go into much This should go into much This should go into much This should go into much more detail about what this project is. This portfolio is meant to showcase the skills I have learned over the years. This should go into much This should go into much This should go into much"
+      name: "App Features",
+      items:
+        [
+          "File based blog",
+          "About Me",
+          "Project Showcase",
+          "Application Theming",
+        ],
+    },
+  ]
+summary: "This portfolio is h"
 ---
 
-
-
 ## My Portfolio!!
+
+<!-- ![alt text](/assets/8008.svg "Title") -->

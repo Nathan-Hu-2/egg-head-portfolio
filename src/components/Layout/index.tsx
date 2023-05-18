@@ -15,10 +15,10 @@ const Layout = (props: any) => {
         <div className="max-w-4xl px-4 mx-auto">
           <div className="flex justify-between space-x-7">
             <Link href="/">
-              <a className="mt-1 rounded flex items-center px-2 py-4 className='rounded hover:ring-2 ring-secondary focus:outline-none focus:ring-2 focus:ring-secondary hover:no-underline'">
-                <Image src="/assets/eggo.png" alt="an eggo" width={32} height={32} />
+              <a className="mt-1 rounded flex items-center px-2 py-4 className='rounded'">
+                <Image src="/assets/owl.png" alt="" width={32} height={32} />
                 <span className="ml-2 text-lg font-semibold text-gray-900"
-                >My Name</span
+                >Deciding To Do Better</span
                 >
               </a>
             </Link>
@@ -70,53 +70,15 @@ const Layout = (props: any) => {
             <div className="grid grid-cols-1 md:grid-cols-12 md:grid-flow-col md:gap-x-8 md:gap-y-16 md:auto-rows-min">
               {/* Image section */}
               <div className="col-span-1 md:col-span-2 lg:row-start-1 lg:col-start-1">
-                <Image src="/assets/eggo.png" alt="an eggo" width={32} height={32} />
+                <Image src="/assets/owl.png" alt="an eggo" width={32} height={32} />
               </div>
 
               {/* Sitemap sections */}
               <div className="grid grid-cols-2 col-span-6 gap-8 mt-10 sm:grid-cols-3 md:mt-0 md:row-start-1 md:col-start-3 md:col-span-8 lg:col-start-2 lg:col-span-6">
                 <div className="grid grid-cols-1 gap-y-12 sm:col-span-2 sm:grid-cols-2 sm:gap-x-8">
-                  <div>
-                    <h3 className="text-sm font-medium text-gray-900">Links</h3>
-                    <div role="list" className="flex flex-row gap-2 mt-6 align-middle">            
-                      <a
-                        href="https://github.com/eggheadio/portfolio-template-and-challenge" 
-                        className="rounded cursor-pointer focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-secondary"
-                      >
-                        <Image
-                          src="/assets/github.svg"
-                          alt="an eggo"
-                          width={20}
-                          height={20}
-                        />
-                      </a>
-                      <a 
-                        href="https://twitter.com/eggheadio"
-                        className="rounded cursor-pointer focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-secondary"
-                      >
-                        <Image
-                          src="/assets/twitter.svg"
-                          alt="an eggo"
-                          width={20}
-                          height={20}
-                        />
-                      </a>
-                      <a 
-                        href="https://www.linkedin.com/company/egghead.io"
-                        className="rounded cursor-pointer focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-secondary"
-                      >
-                        <Image
-                          src="/assets/linkedin.svg"
-                          alt="linked in"
-                          width={20}
-                          height={20}
 
-                        />
-                      </a>
-                    </div>
-                  </div>
                   <div>
-                    <h3 className="px-2 text-sm font-medium text-gray-900">Site</h3>
+                    <h3 className="px-2 text-sm font-medium text-gray-900">Site Sections</h3>
                     <div role="list" className="flex mt-6">
                       <p className="text-sm">
                         <Link href="/blog">
@@ -167,7 +129,7 @@ const Layout = (props: any) => {
           </div>
 
           <div className="py-10 text-center border-t border-gray-100">
-            <p className="text-sm text-gray-500">&copy; 2021 My Name, Inc. All rights reserved.</p>
+            <p className="text-sm text-gray-500">If you haven&#39;t realised, my name is Nathan Hu (That&#39;s why the owl )</p>
           </div>
         </div>
       </footer>

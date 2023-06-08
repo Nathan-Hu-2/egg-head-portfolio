@@ -3,6 +3,8 @@ title: "8008 VSCode Theme"
 date: 2022/04/06
 tags: [portfolio]
 project: true
+featured: true
+
 images: [
     {
       name: "Blog page",
@@ -25,9 +27,37 @@ details:
         ],
     },
   ]
-summary: "This portfolio is h"
+summary: "VSCode Theme inspired by GMK 8008. It's impossible to code without a vibey theme so I created on myself 👾"
 ---
 
-## My Portfolio!!
+&nbsp;
 
-![alt text](/assets/8008.svg "Title")
+**Why Create a Theme?**
+
+&nbsp;
+
+VSCode themes are a great way to personalise your workspace and get you excited about making something for yourself! Being able to open up a code space with the exact colour specs that you want only makes things easier. If we are going to learn programming might as well code in an appealling environment 😁
+
+&nbsp;
+
+**Guide**
+
+&nbsp;
+
+
+<!-- linking image -->
+[![alt text](/assets/8008.svg "Title")](https://vscodethemes.com/e/jejunum.8008/8008?language=javascript){:target="_blank"}
+
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+
+<!-- ![alt text](/assets/8008.svg "Title") -->

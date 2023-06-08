@@ -129,7 +129,7 @@ const Layout = (props: any) => {
           </div>
 
           <div className="py-10 text-center border-t border-gray-100">
-            <p className="text-sm text-gray-500">If you haven&#39;t realised, my name is Nathan Hu (That&#39;s why the owl )</p>
+            <p className="text-sm text-gray-500">Owls Go HUot</p>
           </div>
         </div>
       </footer>

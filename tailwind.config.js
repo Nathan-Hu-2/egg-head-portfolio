@@ -14,6 +14,7 @@ module.exports = {
       fontFamily: {
         sans: ['arial', ...defaultTheme.fontFamily.sans],
         serif: ['Lora', 'Georgia', 'times', 'serif'],
+        arctic: ['BLArctic']
       }
     },
   },

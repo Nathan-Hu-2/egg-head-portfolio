@@ -18,11 +18,11 @@ const Home: NextPage<{ posts: PostType[], projects: ProjectType[] }> = ({ posts,
         <div className='flex flex-row items-center'>
           <div className="m-4 sm:ml-4">
             <h1 className="text-3xl font-bold sm:text-6xl">
-              Hello World, I Am Nathan!
+              Hello <span className="text-pink-500">World</span>, I Am Nathan!
             </h1>
             <p className="pt-2 text-base">
-              <strong>Here is where I document my journey on deciding to do better 🦄<br></br>
-                Explore my growing repertoire of projects and blogs ✏️</strong>
+              <strong>Here is where I <span className="text-pink-500">document my journey</span> on deciding to do better 🦄<br></br>
+                Explore my growing repertoire of <span className="text-pink-500">projects and blogs</span> ✏️</strong>
             </p>
             <div role="list" className="flex flex-row gap-2 mt-6 align-middle">
               <a
@@ -50,7 +50,7 @@ const Home: NextPage<{ posts: PostType[], projects: ProjectType[] }> = ({ posts,
             </div>
           </div>
         </div>
-      </section>
+      </section >
 
       <section className='container p-4 mx-auto my-10 sm:p-0 sm:max-w-4xl w-fit' >
         <div className='flex flex-col justify-center gap-4 mx-auto sm:flex-row w-fit'>
@@ -59,11 +59,19 @@ const Home: NextPage<{ posts: PostType[], projects: ProjectType[] }> = ({ posts,
           </div>
           <div className='sm:ml-4'>
             <h2 className="text-3xl font-bold transition-all duration-300 rounded cursor-pointer w-fit hover:ring-2 ring-secondary focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-secondary hover:no-underline">
-              A Little About Me
+              A <span className="text-pink-500">Little</span> About Me
             </h2>
             <div className="mt-4 ">
               <p>
-                I am Nathan Hu a 3rd Year Commerce & Computer Science Student at UNSW 💡.
+                My name is Nathan Hu, and youuu are one of the few people to stumble
+                across my personal website 🦄
+                I am a <span className="text-pink-500">3rd Year Commerce & Computer Science</span> Student at UNSW,
+                but that is the boring stuff 😴
+                <br></br><br></br>
+                More excitingly, <span className="text-pink-500">I am documenting my decision to do better</span>, to take on more challenges and push myself
+                to do things that I probably don&apos;t want to do, but know will be memorable and meaningful 😁
+                <br></br><br></br>
+                <span className="text-pink-500">Check out my blog where I write about startups and personal challenges</span> (Like the time I didn&apos;t eat for 10-days☕) as well as my projects!
               </p>
               <p className='mt-2'>
               </p>
@@ -79,10 +87,9 @@ const Home: NextPage<{ posts: PostType[], projects: ProjectType[] }> = ({ posts,
           </a>
         </Link>
         <div className="mt-4 w-96 sm:w-auto">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-          </p>
           <p>
-            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laboru.
+            Since I do computer science, I am automatically meant to have a few <span className="text-pink-500">personal projects</span> under my belt 🥋
+            Below are a some of the projects that I am proud of 😁
           </p>
         </div>
         <div className='grid grid-cols-1 gap-4 mx-auto mt-6 md:grid-cols-2 w-fit'>
@@ -99,7 +106,7 @@ const Home: NextPage<{ posts: PostType[], projects: ProjectType[] }> = ({ posts,
         </Link>
         <div className="mt-4 w-96 sm:w-auto">
           <p>
-            Here are some of my featured blogs! If you want to read about some awesome early stage startups, tech and my experience with fasting for 10 days, check the top right!
+            Here are some of my more interesting blogs 😘
           </p>
           {/* <p className='mt-2'>
             Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laboru.

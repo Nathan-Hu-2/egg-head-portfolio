@@ -1,14 +1,16 @@
 ---
-title: "Building A Sumobot"
+title: "Building a MtrnSoc Sumobot Website"
 date: 2022/03/23
 tags: [portfolio]
 project: true
 images:
   [
-    { name: "Home Page", src: "/assets/portfolio.png", alt: "The Home Page" },
+    { name: "Home Page", 
+      src: "/assets/mtrnsoc1.jpg",
+      alt: "The Home Page" },
     {
       name: "Blog page",
-      src: "/assets/portfolio-blog.png",
+      src: "/assets/mtrnsoc2.jpg",
       alt: "The blog page of the application",
     },
   ]

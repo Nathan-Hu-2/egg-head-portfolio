@@ -18,22 +18,19 @@ const Layout = (props: any) => {
               <a className="mt-1 rounded flex items-center px-2 py-4 className='rounded'">
                 <Image src="/assets/owl.png" alt="" width={32} height={32} />
                 <span className="ml-2 text-lg font-semibold text-gray-900"
-                >Deciding To Do Better</span
-                >
+                >Deciding To Do Better</span>
               </a>
             </Link>
             <div className="items-center hidden space-x-1 md:flex">
               <Link href="/blog">
                 <a
                   className="px-2 py-1 font-semibold text-gray-700 transition-all duration-300 rounded hover:ring-2 ring-secondary focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-secondary"
-                >Blog</a
-                >
+                >Blog</a>
               </Link>
               <Link href="/projects">
                 <a
                   className="px-2 py-1 font-semibold text-gray-700 transition-all duration-300 rounded hover:ring-2 ring-secondary focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-secondary"
-                >Projects</a
-                >
+                >Projects</a>
               </Link>
             </div>
             <Menu className="" >

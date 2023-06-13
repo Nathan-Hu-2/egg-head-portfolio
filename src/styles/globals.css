@@ -5,9 +5,14 @@
 @font-face {
   font-family: 'arial';
   font-style: normal;
-  font-weight: 400;
+  font-weight: 800;
   font-display: swap;
   src: local('arial'), url(/fonts/montserrat-font/MontserratRegular-RpK6l.otf)
+}
+
+@font-face {
+  font-family: BLArctic;
+  src: url("fonts/BLArctic-Regular.woff2") format("woff2");
 }
 
 html,
@@ -21,6 +26,11 @@ a {
   text-decoration: none;
 }
 
+@layer base {
+  a:hover {
+    @apply text-pink-500;
+  }
+}
 * {
   box-sizing: border-box;
 }

@@ -9,8 +9,12 @@ const Blog: NextPage<{ posts: PostType[] }> = ({ posts }) => {
     <div className='max-w-4xl mx-auto'>
       <div className='flex items-center justify-center mt-14'>
         <h1 className="font-sans text-3xl font-bold">
-          Hello world, this is my Blog page
+          Hello <span className="text-pink-500">World</span>, Welcome to Nathan&rsquo;s Blog
         </h1>
+
+      </div>
+      <div className='flex items-center justify-center'>
+        <p>Explore my write ups on startups, personal challenges, and things that are just fun 🥴</p>
       </div>
       <ul className='mt-10'>
         {posts.map((post) => {
@@ -19,7 +23,7 @@ const Blog: NextPage<{ posts: PostType[] }> = ({ posts }) => {
           )
         })}
       </ul>
-    </div>
+    </div >
   )
 }
 

@@ -18,7 +18,15 @@ const Projects: NextPage<{ projects: ProjectType[] }> = ({ projects }) => {
 
   return (
     <>
-      {projects.map((project) => {
+      <div className='flex items-center justify-center mt-14'>
+        <h1 className="font-sans text-3xl font-bold">
+          Hello <span className="text-pink-500">World</span>, Welcome to Nathan&rsquo;s Projects 👻
+        </h1>
+
+      </div>
+      <div className='flex items-center justify-center'>
+        <p>Here are some of the more technical projects that I have worked on</p>
+      </div>      {projects.map((project) => {
         return <Project project={project} key={project.slug} />
       })}
     </>
